@@ -42,7 +42,8 @@ The main features of LPC2148 include the following.
 
 ![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
-4.select the program name 
+
+4.select the program name <br>
 ![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
 
 
@@ -73,18 +74,33 @@ The main features of LPC2148 include the following.
 ![image](https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png)
 
 
-
-
-
-
 ## STM 32 CUBE PROGRAM :
+#include "main.h"
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
 
-
-
+int main(void)
+{
+  
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(3000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(3000);
+  }
+  
 ## Output  :
- 
- 
- 
- 
+
+ on
+![on](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/74b01872-fbbc-4019-a180-fdf7dbb64df7)
+
+off 
+![off](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/0c44af39-f34a-4797-b4bf-14813f13714f)
+
+  
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
