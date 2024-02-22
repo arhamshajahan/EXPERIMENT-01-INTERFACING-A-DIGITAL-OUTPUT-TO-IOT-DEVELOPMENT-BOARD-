@@ -1,3 +1,9 @@
+### DATE       : 13 - 02 -2024
+### NAME       : ARHAM S
+### REG NO     : 212222110005
+### DEPARTMENT : CSE(IOT)
+
+
 # EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
 
 ## Aim: To Interface a Digital output (LED) to ARM IOT development board and write a  program to blink an led 
@@ -95,10 +101,10 @@ int main(void)
   
 ## Output  :
 
- on
+### LED ON
 ![on](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/74b01872-fbbc-4019-a180-fdf7dbb64df7)
 
-off 
+### LED OFF 
 ![off](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/0c44af39-f34a-4797-b4bf-14813f13714f)
 
   
