@@ -102,10 +102,10 @@ int main(void)
 ## Output  :
 
 ### LED ON
-![on](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/74b01872-fbbc-4019-a180-fdf7dbb64df7)
+![on_2](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/f13874eb-18a6-43d4-bb1b-f2dbbaf984b1)
 
 ### LED OFF 
-![off](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/0c44af39-f34a-4797-b4bf-14813f13714f)
+![off_2](https://github.com/arhamshajahan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/127313881/127b9914-2dca-49b4-b79c-cecdcc0ad80b)
 
   
 ## Result :
